@@ -1,0 +1,111 @@
+/* #331D2C
+#3F2E3E
+#A78295
+#EFE1D1 */
+
+body{
+  text-align: center;
+  background-color: #331D2C;
+}
+
+a{
+  text-decoration:none;
+}
+img {
+  padding: 0px;
+  border-radius: 10px;
+  width: 80%;
+  height: min-content;
+  object-fit: cover;
+  margin: 3%;
+}
+
+img:hover {
+  padding: 0px;
+  box-shadow:  0 3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.button{
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+}
+
+.button2{
+  border-color: #A78295;
+  color: #000;
+  box-shadow: 0 0 40px 40px #A78295 inset, 0 0 0 0 #A78295;
+  transition: all 150ms ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0 10px 0 #A78295 inset, 0 0 10px 4px #A78295;
+  }
+}
+
+
+.homedecor{
+  padding: 3%;
+}
+
+.home-decor-title{
+  font-family: "montserrat";
+  color: white;
+  padding: 2%;
+  background-color: #3F2E3E;
+}
+.wall-title{
+  font-family: "montserrat";
+  color: white;
+}
+.sticker-title{
+  font-family: "montserrat";
+  color: white;
+  padding-bottom: 2%;
+}
+.pro-1,
+.pro-2,
+.pro-3 {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    color: #EFE1D1;
+}
+.off{
+  color: #00FFFF;
+}
+
+
+.pre-title{
+  font-family: "montserrat";
+  color: white;
+}
+.pre-title-2{
+  font-family: "montserrat";
+  color: white;
+  padding-bottom: 2%;
+}

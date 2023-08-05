@@ -1,0 +1,319 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "montserrat";
+  font-weight: bold;
+}
+
+.landing-page {
+  width: 100%;
+  background-color: #000000;
+  padding: 10%;
+  color: white;
+}
+
+.landing-page-title {
+  width: 100%;
+  font-size: 400%;
+  padding-bottom: 2%;
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .landing-page-title {
+    font-size: 300%;
+  }
+}
+.highlight {
+  color: red;
+}
+
+.highlight-2 {
+  color: #61677A;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0 auto;
+}
+
+img {
+  padding: 0px;
+  border-radius: 10px;
+  width: 70%;
+  height: min-content;
+  object-fit: cover;
+  margin: 3%;
+}
+
+img:hover {
+  padding: 0px;
+  box-shadow: 0 3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.navbar.scrolling-down {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar.scrolling-up {
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.brading {
+  color: red;
+}
+
+@media screen and (min-width: 768px) {
+  .season-title,
+  .bs-title,
+  .bs-title1,
+  .bs-title2 {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .season-title,
+  .bs-title,
+  .bs-title1,
+  .bs-title2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    max-width: 1200px;
+  }
+
+  .sm-sec {
+    text-align: left;
+  }
+}
+
+.navbar {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.season {
+  margin: 20px;
+}
+
+.season-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.row .sm-sec {
+  margin-bottom: 20px;
+}
+
+.sm-sec img {
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.pro-1,
+.pro-2,
+.pro-3 {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.button {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+
+  &:hover,
+  &:focus {
+    color: #000;
+    outline: 0;
+  }
+}
+
+.button2 {
+  border-color: #008CBA;
+  color: #000;
+  box-shadow: 0 0 40px 40px #008CBA inset, 0 0 0 0 #008CBA;
+  transition: all 150ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 10px 0 #008CBA inset, 0 0 10px 4px #008CBA;
+  }
+}
+
+.bestsellers {
+  margin: 20px;
+}
+
+.bs-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "montserrat";
+}
+
+.bs-title1,
+.bs-title2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  max-width: 1200px;
+}
+
+/* Media queries for mobile */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .nav-item {
+    margin-right: 5px;
+  }
+
+  .season-title {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .pro-1,
+  .pro-2,
+  .pro-3 {
+    font-size: 16px;
+  }
+
+  .button2 {
+    font-size: 14px;
+  }
+
+  .bs-title,
+  .bs-title1,
+  .bs-title2 {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* clothing */
+.clothing {
+  text-align: center;
+}
+
+.off {
+  color: red;
+  font-size: larger;
+}
+
+.gender {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  border-radius: 10px;
+  color: red;
+  background-color: #000000;
+  width: 200px;
+}
+/* clothing external */
+.title-h1{
+  background-color: #000;
+  color: white;
+  padding: 2%;
+  margin-bottom:2% ;
+}
+.title{
+  padding-top: 2%;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  /* Adjust column width for mobile */
+  .col-lg-6,
+  .col-md-6,
+  .col-sm-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* Adjust image titles on mobile */
+  .img-title {
+    font-size: 20px;
+  }
+}
+
+/* Home decor main*/
+
+.home-decor {
+  text-align: center;
+}
+
+.home-decor-title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  border-radius: 10px;
+  color: red;
+  background-color: #000000;
+  width: 25%;
+}
+
+.home-img {
+  width: 50%;
+}
